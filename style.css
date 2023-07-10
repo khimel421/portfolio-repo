@@ -1,0 +1,63 @@
+*{
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text-primary{
+    color: orangered;
+    font-weight: 700;
+}
+
+.link-style{
+    font-size: 20px;
+    color: black;
+}                      
+
+.btn-primary{
+    padding: 13px 25px ;
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+}
+
+.header{
+    background-color: #fff8f3;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav > ul > li a {
+    text-decoration: none;
+    
+}
+
+.nav-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 30px 150px;
+}
+
+.banner .portfolio-pic{
+    width: 500px;
+}
